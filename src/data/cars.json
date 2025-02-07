@@ -1,0 +1,94 @@
+
+[
+    {
+      "name": "Koenigsegg",
+      "type": "Sport",
+      "fuel": "90L",
+      "transmission": "Manual",
+      "capacity": 2,
+      "price": 99.00,
+      "favorite": false,
+      "image": "./images/AllNewRush.png"
+    },
+    {
+      "name": "Nissan GT-R",
+      "type": "Sport",
+      "fuel": "80L",
+      "transmission": "Manual",
+      "capacity": 2,
+      "price": 82.00,
+      "favorite": true,
+      "image": "./images/nissan-gt-r.png"
+    },
+    {
+      "name": "Rolls-Royce",
+      "type": "Sport",
+      "fuel": "70L",
+      "transmission": "Manual",
+      "capacity": 4,
+      "price": 96.00,
+      "favorite": false,
+      "image": "./images/rolls-royce.png"
+    },
+    {
+      "name": "All New Rush",
+      "type": "SUV",
+      "fuel": "70L",
+      "transmission": "Manual",
+      "capacity": 6,
+      "price": 76.00,
+      "favorite": false,
+      "image": "./images/all-new-rush.png"
+    },
+    {
+      "name": "CR-V",
+      "type": "SUV",
+      "fuel": "80L",
+      "transmission": "Manual",
+      "capacity": 4,
+      "price": 80.00,
+      "favorite": false,
+      "image": "./images/cr-v.png"
+    },
+    {
+      "name": "All New Terios",
+      "type": "SUV",
+      "fuel": "90L",
+      "transmission": "Manual",
+      "capacity": 6,
+      "price": 74.00,
+      "favorite": false,
+      "image": "./images/all-new-terios.png"
+    },
+    {
+      "name": "MG ZX Exclusive",
+      "type": "Hatchback",
+      "fuel": "70L",
+      "transmission": "Electric",
+      "capacity": 4,
+      "price": 76.00,
+      "favorite": false,
+      "image": "../images/mg-zx-exclusive.png"
+    },
+    {
+      "name": "New MGZS",
+      "type": "SUV",
+      "fuel": "80L",
+      "transmission": "Manual",
+      "capacity": 4,
+      "price": 80.00,
+      "favorite": false,
+      "image": "./images/new-mgzs.png"
+    },
+    {
+      "name": "MG ZX Excite",
+      "type": "Hatchback",
+      "fuel": "80L",
+      "transmission": "Electric",
+      "capacity": 4,
+      "price": 74.00,
+      "favorite": true,
+      "image": "./images/mg-zx-excite.png"
+    }
+  ]
+  

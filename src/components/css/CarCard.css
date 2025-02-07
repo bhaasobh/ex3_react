@@ -1,0 +1,107 @@
+.car-card {
+  background: white;
+ 
+  padding: 16px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease-in-out;
+  width: 317px;
+height: 388px;
+gap: 0px;
+border-radius: 10px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+.car-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Card Header */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.car-type {
+  font-size: 14px;
+  color: #6c757d;
+  margin-top: 2px;
+}
+
+/* Favorite Heart Icon */
+.heart {
+  font-size: 18px;
+  color: red;
+  cursor: pointer;
+}
+
+/* Car Image */
+.car-image {
+  width: 272px; /* Set fixed width */
+  height: 840px;  /* Set fixed height */
+  object-fit: contain; /* Ensures the image scales properly without distortion */
+  border-radius: 8px;
+}
+
+
+/* Car Details */
+.car-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.car-details span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Card Footer */
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.price span {
+  font-size: 12px;
+  color: #6c757d;
+}
+
+/* Rent Now Button */
+.rent-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.rent-btn:hover {
+  background-color: #0056b3;
+}

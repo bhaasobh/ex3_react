@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Navbarside.css"; 
+import "./css/Navbarside.css"; 
 import { FaCheckSquare, FaRegSquare } from "react-icons/fa"; 
 
 
@@ -18,6 +18,7 @@ const CAPACITY = [
     { capacity: "4 Person", count: 16 },
     { capacity: "6 Person", count: 14 }
 ];
+
 const Navbarside = () => {
     const [selectedTypes, setSelectedTypes] = useState([]);
     const [selectedCapacities, setSelectedCapacities] = useState([]);

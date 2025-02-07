@@ -1,0 +1,72 @@
+.Context{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #F6F7F9;
+}
+
+.catalogue-header {
+
+display: flex;
+flex-direction: row;
+margin-top: 24px;
+margin-left: 34px;
+
+
+
+  }
+  
+  .catalogue-header text {
+ width: 170px; 
+height: 24px;
+top: 28px;
+left: 392px;
+gap: 0px;
+opacity: 0px;
+
+
+font-family: Plus Jakarta Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: -0.03em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+   
+  }
+  .car-grid {
+    display: flex;
+    flex-wrap: wrap; /* Ensures wrapping to a new row when needed */
+    gap: 32px;
+    padding: 20px;
+    justify-content: space-between; /* Ensures even spacing */
+  }
+  
+  
+  
+  
+  .car-count {
+ 
+    height: 24px;
+    top: 30px;
+    left: 561px;
+    gap: 0px;
+    opacity: 0px;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: -0.02em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #90A3BF;
+
+    
+  }
+
+  
+  
