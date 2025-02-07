@@ -17,7 +17,7 @@ const Content = ({ searchQuery, selectedTypes, selectedCapacities, maxPrice , se
 
   // Filter cars based on selected filters
   const filteredCars = cars.filter((car) => {
-    const matchesSearch = searchQuery.length > 2 ? car.name.toLowerCase().includes(searchQuery.toLowerCase()) : true;
+    const matchesSearch = searchQuery.length > 1 ? car.name.toLowerCase().includes(searchQuery.toLowerCase()) : true;
     const matchesType = selectedTypes.includes(car.type);
     const matchesCapacity = selectedCapacities.includes(String(car.capacity));
     const matchesPrice = car.price <= maxPrice;
