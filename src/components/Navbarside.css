@@ -1,10 +1,65 @@
-.navBarSide{
+.Navbarside {
+    position: relative;
     width: 360px;
-    height: 1600px;
-    top: 124px;
-    gap: 0px;
-    border: 0px 1px 0px 0px;
-    opacity: 0px;
-    background-color: #FFFFFF;
-    border-right: 1px solid #F3F5F7
+height: 1600px;
+left: 34px; 
+gap: 0px;
+border: 0px 1px 0px 0px;
+opacity: 0px;
+border-right: 1px solid #F3F5F7
+
+}
+
+h4
+{
+    font-family: Plus Jakarta Sans;
+font-size: 12px;
+font-weight: 600;
+line-height: 15.12px;
+letter-spacing: -0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color   : #90A3BF;
+
+}
+.filter-section {
+    width: Hug (176px)px;
+height: Hug (352px)px;
+top: 32px;
+left: 32px;
+gap: 28px;
+opacity: 0px;
+
+
+}
+
+
+
+.filter-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-bottom: 32px;
+    font-size: 14px;
+}
+
+.checkbox {
+    font-size: 16px;
+    color: #C3D4E9;
+}
+
+.checked {
+    color: #3563E9;
+}
+
+.count {
+    color: #888;
+    font-size: 12px;
+}
+
+.slider {
+    width: 100%;
+    accent-color: #3563E9;
 }
