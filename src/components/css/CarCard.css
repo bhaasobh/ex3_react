@@ -42,11 +42,18 @@ opacity: 0px;
   margin-top: 2px;
 }
 
-/* Favorite Heart Icon */
-.heart {
-  font-size: 18px;
-  color: red;
+.heart-icon {
+  font-size: 20px;
   cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.heart-icon.red {
+  color: red;
+}
+
+.heart-icon.gray {
+  color: gray;
 }
 
 /* Car Image */

@@ -1,0 +1,6 @@
+.middleContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
+  }

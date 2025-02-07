@@ -22,8 +22,7 @@ gap: 16px;
 opacity: 0px;
 
   }
-  
-  /* Left Section - Brand */
+
   .footer-brand {
     max-width: 300px;
   }
@@ -65,7 +64,6 @@ text-decoration-skip-ink: none;
 
   }
   
-  /* Middle Section - Links */
   .footer-links {
     display: flex;
     gap: 80px;
