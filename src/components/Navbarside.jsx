@@ -2,22 +2,23 @@ import React, { useEffect } from "react";
 import "./css/Navbarside.css";
 import { FaCheckSquare, FaRegSquare } from "react-icons/fa";
 
+// ✅ Move these outside the component to avoid re-creation on each render
+const carTypes = ["Sport", "SUV", "MPV", "Sedan", "Coupe", "Hatchback"];
+const capacities = ["2", "4", "6"];
+
 const Navbarside = ({
   selectedTypes, setSelectedTypes,
   selectedCapacities, setSelectedCapacities,
   maxPrice, setMaxPrice, minPrice, maxPriceLimit
 }) => {
 
-  const carTypes = ["Sport", "SUV", "MPV", "Sedan", "Coupe", "Hatchback"];
-  const capacities = ["2", "4", "6"];
-
-
+  // ✅ Only run once when component mounts
   useEffect(() => {
     setSelectedTypes(carTypes); 
-    setSelectedCapacities(capacities); 
-  }, []); 
+    setSelectedCapacities(capacities);
+  }, [setSelectedTypes, setSelectedCapacities]); // ✅ Removed carTypes & capacities
 
- 
+  // Toggle Type Selection (Ensure at least one remains)
   const toggleType = (type) => {
     setSelectedTypes((prev) => {
       const updatedTypes = prev.includes(type)
@@ -28,7 +29,7 @@ const Navbarside = ({
     });
   };
 
-
+  // Toggle Capacity Selection
   const toggleCapacity = (capacity) => {
     setSelectedCapacities((prev) =>
       prev.includes(capacity) ? prev.filter(c => c !== capacity) : [...prev, capacity]
