@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./css/Navbarside.css";
 import { FaCheckSquare, FaRegSquare } from "react-icons/fa";
 
