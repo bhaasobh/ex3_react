@@ -1,0 +1,10 @@
+.navBarSide{
+    width: 360px;
+    height: 1600px;
+    top: 124px;
+    gap: 0px;
+    border: 0px 1px 0px 0px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    border-right: 1px solid #F3F5F7
+}
