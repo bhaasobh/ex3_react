@@ -1,0 +1,157 @@
+.footer {
+  
+    height: 480px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 80px;
+    box-sizing: border-box;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: Hug (292px)px;
+height: Hug (108px)px;
+top: 80px;
+left: 60px;
+gap: 16px;
+opacity: 0px;
+
+  }
+  
+  /* Left Section - Brand */
+  .footer-brand {
+    max-width: 300px;
+  }
+  
+  .brand-name {
+    width: 213px;
+height: 44px;
+gap: 0px;
+opacity: 0px;
+color: #3563E9;
+
+font-family: Plus Jakarta Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -0.03em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .brand-text {
+    font-size: 14px;
+    color: #13131399;
+
+    margin-top: 10px;
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  }
+  
+  /* Middle Section - Links */
+  .footer-links {
+    display: flex;
+    gap: 80px;
+  }
+  
+  .footer-column h4 {
+  
+font-family: Plus Jakarta Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: -0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+color: #1A202C;
+
+    
+    margin-bottom: 12px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    width: 152px;
+height: 188px;
+top: 136px;
+left: 804px;
+gap: 0px;
+opacity: 0px;
+color: #13131399;
+
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: left;
+text-decoration-skip-ink: none;
+
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #6c757d;
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+  
+  .footer-column ul li a:hover {
+    color: #007bff;
+  }
+  
+  /* Bottom Section */
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #1A202C;
+
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: right;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  }
+  
+  .footer-terms a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #6c757d;
+    transition: color 0.3s;
+  }
+  
+  .footer-terms a:hover {
+    color: #007bff;
+  }
+  
