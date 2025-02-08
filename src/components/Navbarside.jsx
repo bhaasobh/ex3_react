@@ -9,7 +9,7 @@ const capacities = ["2", "4", "6"];
 const Navbarside = ({
   selectedTypes, setSelectedTypes,
   selectedCapacities, setSelectedCapacities,
-  maxPrice, setMaxPrice, minPrice, maxPriceLimit
+  maxPrice, setMaxPrice, minPrice, maxPriceLimit,carCounts
 }) => {
 
   // ✅ Only run once when component mounts
@@ -45,6 +45,7 @@ const Navbarside = ({
           <div key={index} className="filter-item" onClick={() => toggleType(type)}>
             {selectedTypes.includes(type) ? <FaCheckSquare className="checkbox checked" /> : <FaRegSquare className="checkbox" />}
             <span>{type}</span>
+            <span> ({carCounts[type] || 0})</span> 
           </div>
         ))}
       </div>

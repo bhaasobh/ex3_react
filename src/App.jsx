@@ -31,6 +31,16 @@ const maxPricee = cars.length > 0 ? Math.max(...cars.map(car => car.price)) : 10
 
   const [selectedCar, setSelectedCar] = useState(null);
 
+  const countCarsByType = (cars) => {
+    return cars.reduce((acc, car) => {
+      acc[car.type] = (acc[car.type] || 0) + 1;
+      return acc;
+    }, {});
+  };
+  
+  // Assuming `cars` is your JSON array of car objects
+  const carCounts = countCarsByType(cars);
+
   return (
     <div >
       <Navbartop searchQuery={searchQuery} setSearchQuery={setSearchQuery} setSelectedCar={setSelectedCar} />
@@ -44,6 +54,7 @@ const maxPricee = cars.length > 0 ? Math.max(...cars.map(car => car.price)) : 10
           setMaxPrice={setMaxPrice}
           minPrice={minPrice}
           maxPriceLimit={maxPricee}
+          carCounts={carCounts}
         />
         <Content
           searchQuery={searchQuery}
