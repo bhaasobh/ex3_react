@@ -1,21 +1,12 @@
-import { useState, useEffect } from 'react';
-import './css/Content.css'
+
+import '../css/Content.css'
 import CarCard from './CarCard';
-import carsData from "../data/cars.json";
 import CarDetails from "./CarDetails";
 
 
-const Content = ({ searchQuery, selectedTypes, selectedCapacities, maxPrice , selectedCar, setSelectedCar  }) => {
-  const [cars, setCars] = useState([]);
-  useEffect(() => 
-    {
-      setCars(carsData);   
-     }, 
-  []);
+const Content = ({ searchQuery, selectedTypes, selectedCapacities, maxPrice , selectedCar, setSelectedCar ,cars }) => {
+ 
 
-
-
-  // Filter cars based on selected filters
   const filteredCars = cars.filter((car) => {
     const matchesSearch = searchQuery.length > 1 ? car.name.toLowerCase().includes(searchQuery.toLowerCase()) : true;
     const matchesType = selectedTypes.includes(car.type);

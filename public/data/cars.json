@@ -8,7 +8,7 @@
       "capacity": 2,
       "price": 99.00,
       "favorite": false,
-      "image": "/images/AllNewRush.png"
+      "image": "/data/images/AllNewRush.png"
     },
     {
       "name": "Nissan GT-R",
@@ -18,7 +18,7 @@
       "capacity": 2,
       "price": 82.00,
       "favorite": true,
-      "image": "/images/nissan-gt-r.png"
+      "image": "/data/images/nissan-gt-r.png"
     },
     {
       "name": "Rolls-Royce",
@@ -28,7 +28,7 @@
       "capacity": 4,
       "price": 96.00,
       "favorite": false,
-      "image": "/images/rolls-royce.png"
+      "image": "/data/images/rolls-royce.png"
     },
     {
       "name": "All New Rush",
@@ -38,7 +38,7 @@
       "capacity": 6,
       "price": 76.00,
       "favorite": false,
-      "image": "/images/AllNewRush.png"
+      "image": "/data/images/AllNewRush.png"
     },
     {
       "name": "CR-V",
@@ -48,7 +48,7 @@
       "capacity": 4,
       "price": 80.00,
       "favorite": false,
-      "image": "/images/cr-v.png"
+      "image": "/data/images/cr-v.png"
     },
     {
       "name": "All New Terios",
@@ -58,7 +58,7 @@
       "capacity": 6,
       "price": 74.00,
       "favorite": false,
-      "image": "/images/all-new-terios.png"
+      "image": "/data/images/all-new-terios.png"
     },
     {
       "name": "MG ZX Exclusive",
@@ -68,7 +68,7 @@
       "capacity": 4,
       "price": 76.00,
       "favorite": false,
-      "image": "/images/mg-zx-exclusive.png"
+      "image": "/data/images/mg-zx-exclusive.png"
     },
     {
       "name": "New MGZS",
@@ -78,7 +78,7 @@
       "capacity": 4,
       "price": 80.00,
       "favorite": false,
-      "image": "/images/new-mgzs.png"
+      "image": "/data/images/new-mgzs.png"
     },
     {
       "name": "MG ZX Excite",
@@ -88,7 +88,7 @@
       "capacity": 4,
       "price": 74.00,
       "favorite": true,
-      "image": "/images/mg-zx-excite.png"
+      "image": "/data/images/mg-zx-excite.png"
     }
   ]
   

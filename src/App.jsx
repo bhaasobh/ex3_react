@@ -3,18 +3,17 @@ import Navbartop from "./components/Navbartop";
 import Navbarside from "./components/Navbarside";
 import Content from "./components/Content";
 import Footer from "./components/Footer";
-import carsData from "./data/cars.json";
-import './App.css'
+
+import './css/App.css'
 
 const App = () => {
   const [cars, setCars] = useState([]);
-  useEffect(() => 
-    {
-      setCars(carsData);
-     
-     }, 
-     
-  []);
+  useEffect(() => {
+    fetch("./data/cars.json")  // ✅ Now it will work
+      .then(response => response.json())
+      .then(data => setCars(data))
+      .catch(error => console.error("Error loading JSON", error));
+  }, []);
 
 
   const allTypes = [...new Set(cars.map((car) => car.type))];
@@ -57,6 +56,7 @@ const maxPricee = cars.length > 0 ? Math.max(...cars.map(car => car.price)) : 10
           carCounts={carCounts}
         />
         <Content
+          cars={cars}
           searchQuery={searchQuery}
           selectedTypes={selectedTypes}
           selectedCapacities={selectedCapacities}

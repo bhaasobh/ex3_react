@@ -1,7 +1,7 @@
 import React from "react";
 import { FiSearch } from "react-icons/fi"; // Search Icon
 import { MdOutlineFavorite } from "react-icons/md"; // Favorite Icon
-import "./css/Navbartop.css";
+import "../css/Navbartop.css";
 
 const Navbartop = ({ searchQuery, setSearchQuery , setSelectedCar  }) => {
   return (

@@ -1,9 +1,9 @@
 import React from "react";
 import { FaHeart } from "react-icons/fa";
-import "./css/CarCard.css";
+import "../css/CarCard.css";
+
 
 const CarCard = ({ car, onClick }) => {
-  const carImage = require(`../data/images/${car.name}.png`);
 
   return (
     <div className="car-card" onClick={onClick}>
@@ -12,7 +12,7 @@ const CarCard = ({ car, onClick }) => {
         <FaHeart className={`heart-icon ${car.favorite ? "red" : "gray"}`} />
       </div>
 
-      <img src={carImage} alt={car.name} className="car-image" />
+      <img src={car.image} alt={car.name}  className="car-image" />
 
       <div className="car-details">
         <span>{car.fuel}L</span>

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./css/Navbarside.css";
+import "../css/Navbarside.css";
 import { FaCheckSquare, FaRegSquare } from "react-icons/fa";
 
 // ✅ Move these outside the component to avoid re-creation on each render

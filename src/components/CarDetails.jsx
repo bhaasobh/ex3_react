@@ -1,11 +1,11 @@
 import React from "react";
 import { FaHeart } from "react-icons/fa";
-import "./css/CarDetails.css";
+import "../css/CarDetails.css";
 
 
 
 const CarDetails = ({ car }) => {
-  const carImage = require(`../data/images/${car.name}.png`);
+  
   
   if (!car) return null; // Prevent rendering if no car is selected
 
@@ -17,12 +17,12 @@ const CarDetails = ({ car }) => {
       <div className="car-images">
         <span>Car Details</span>
         <div className="main-image">
-          <img src={carImage} alt={car.name} />
+          <img src={'./'+car.image} alt={car.name} />
         </div>
         <div className="thumbnail-images">
   {[...Array(3)].map(( index) => {
     
-    return <img key={index} src={carImage} alt="car interior" />;
+    return <img key={index} src={car.image} alt="car interior" />;
   })}
 </div>
       </div>
